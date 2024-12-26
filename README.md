@@ -1,5 +1,5 @@
 # Programs_Related_To_Arrays_In_java
-Here we This repository contains a collection of Java programs and algorithms focused on working with arrays. Arrays are a fundamental data structure in Java, and mastering their usage is crucial for many programming tasks. 
+ This repository contains a collection of Java programs and algorithms focused on working with arrays. Arrays are a fundamental data structure in Java, and mastering their usage is crucial for many programming tasks. 
 The programs in this repository cover a wide range of array-related operations, from basic manipulation to more advanced algorithms and problem-solving techniques.
 
 
