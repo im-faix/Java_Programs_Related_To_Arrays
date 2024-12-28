@@ -1,12 +1,9 @@
-package com.jspiders.arrays_dsa;
-
 import java.util.Scanner;
 
-public class DublicarteElementsArray
+public class DublicateArrayElements
 {
 	static void frequencyElement(int arr[])
 	{
-		
 		int dub=0;
 		boolean b[] = new boolean[arr.length];
 		for(int i=0;i<arr.length;i++)
@@ -23,13 +20,10 @@ public class DublicarteElementsArray
 				}
 				if(dub>1)//for Dublicating Elements 
 					System.out.println(arr[i] );
-				
 //				lr++;
 				dub=0;
-			}	
-				
-		}
-		
+			}		
+		}	
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
