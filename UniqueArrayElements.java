@@ -28,9 +28,9 @@ public class UniqueArrayElements
 			arr[i]=sc.nextInt();
 		}
 		sc.close();
-		if(uniqueElements(arr))
+		if(uniqueElements(arr)) //Calling the Functiion 
 		{
-			System.out.println("The Array is Unique");
+			System.out.println("The Array is Unique"); // if the Elements are Unique
 		}
 		else
 		{
