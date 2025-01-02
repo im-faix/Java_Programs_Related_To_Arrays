@@ -26,6 +26,8 @@ public class SumPair
 		{
 			arr[i]=sc.nextInt();
 		}
+		System.out.println("Enter the Sum to Find for Pair Elements");
+		int sum = sc.nextInt();
 		sc.close();
 		for(int i=0;i<arr.length;i++)
 		{
