@@ -22,6 +22,7 @@ public class SumPair
 		System.out.println("Enter the size of the array ");
 		int n = sc.nextInt();
 		int[] arr = new int[n];
+		System.out.println("Enter the Elements of Array");
 		for(int i=0;i<arr.length;i++)
 		{
 			arr[i]=sc.nextInt();
@@ -29,10 +30,8 @@ public class SumPair
 		System.out.println("Enter the Sum to Find for Pair Elements");
 		int sum = sc.nextInt();
 		sc.close();
-		for(int i=0;i<arr.length;i++)
-		{
-			System.out.println(arr[i]);
-		}
+		System.out.println("The Pair Elements are");
+		
 		System.out.println();
 		sumPair(arr,sum);
 		
