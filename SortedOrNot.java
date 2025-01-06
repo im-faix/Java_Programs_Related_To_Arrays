@@ -25,7 +25,8 @@ public class SortedOrNot
         return true; // Sorted in descending order
     }
 
-    static boolean sortingAscDesc(int[] a) {
+    static boolean sortingAscDesc(int[] a) 
+    {
         return isSortedAsc(a) || isSortedDesc(a);
     }
 
@@ -42,9 +43,12 @@ public class SortedOrNot
         }
         sc.close();
 
-        if (sortingAscDesc(arr)) {
+        if (sortingAscDesc(arr)) 
+        {
             System.out.println("Sorted");
-        } else {
+        }
+         else 
+        {
             System.out.println("Not Sorted");
         }
     }
