@@ -2,17 +2,22 @@ import java.util.Scanner;
 
 public class SortedOrNot 
 {
-    static boolean isSortedAsc(int[] a) {
-        for (int i = 0; i < a.length-1; i++) {
-            if (a[i] < a[i + 1]) {
+    static boolean isSortedAsc(int[] a)
+     {
+        for (int i = 0; i < a.length-1; i++) 
+        {
+            if (a[i] < a[i + 1])
+             {
                 return false; // Not sorted in ascending order
             }
         }
         return true; // Sorted in ascending order
     }
 
-    static boolean isSortedDesc(int[] a) {
-        for (int i = 0; i < a.length-1; i++) {
+    static boolean isSortedDesc(int[] a)
+     {
+        for (int i = 0; i < a.length-1; i++)
+         {
             if (a[i] > a[i + 1]) {
                 return false; // Not sorted in descending order
             }
