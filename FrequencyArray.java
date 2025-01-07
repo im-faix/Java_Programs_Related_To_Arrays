@@ -1,3 +1,5 @@
+package com.jspiders.arrays_dsa;
+
 import java.util.Scanner;
 
 public class FrequencyArray
@@ -39,6 +41,7 @@ public class FrequencyArray
 			arr[i]=sc.nextInt();
 		}
 		sc.close();
+//		System.out.println(frequencyCount(arr));
 		frequencyCount(arr);
 	}
 }
