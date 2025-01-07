@@ -1,5 +1,3 @@
-package com.jspiders.arrays_dsa;
-
 import java.util.Scanner;
 
 public class FrequencyArray
