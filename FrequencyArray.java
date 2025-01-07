@@ -4,8 +4,6 @@ public class FrequencyArray
 {
 	static void frequencyCount(int arr[])
 	{
-//		int count =0;
-//		int lr =arr[0];
 		boolean b[] = new boolean[arr.length];
 		for(int i=0;i<arr.length;i++)
 		{
@@ -20,8 +18,6 @@ public class FrequencyArray
 						b[j]=true;
 					} 			
 				}
-//				lr++;
-				
 				System.out.println(arr[i] +" "+ (count));
 				}
 		
@@ -39,7 +35,6 @@ public class FrequencyArray
 			arr[i]=sc.nextInt();
 		}
 		sc.close();
-//		System.out.println(frequencyCount(arr));
 		frequencyCount(arr);
 	}
 }
